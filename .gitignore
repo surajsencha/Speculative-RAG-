@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (contains API keys)
+.env
+
+# Uploaded documents (user data)
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Vector store (generated, can be rebuilt)
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# Experiment results (generated)
+experiments/results.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
